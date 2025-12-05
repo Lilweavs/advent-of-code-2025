@@ -14,7 +14,7 @@ pub fn build(b: *std.Build) void {
         .name = "advent_of_code_2025",
         .use_llvm = true,
         .root_module = b.createModule(.{
-            .root_source_file = b.path("day01/main.zig"),
+            .root_source_file = b.path("day02/main.zig"),
             .target = target,
             .optimize = optimize,
             .imports = &.{
